@@ -1,4 +1,4 @@
-# Semantic Coloring Search Editor
+# Coloring Search Editor
 
 [English](README_EN.md) | **日本語**
 
@@ -18,7 +18,7 @@
 ## 使用方法
 
 1. コマンドパレットを開く（macOSでは`Cmd+Shift+P`、Windows/Linuxでは`Ctrl+Shift+P`）
-2. "Semantic Coloring Search Editor: Search"を実行
+2. "Coloring Search Editor: Search"を実行
 3. 検索語とオプションのファイルパターンを入力
 4. トグルボタンを使用して検索オプションを設定:
    - **Aa**: 大文字小文字の区別の切り替え

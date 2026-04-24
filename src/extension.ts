@@ -18,7 +18,7 @@ import { loadWebviewContent } from './ui/webview-loader';
 let currentPanel: vscode.WebviewPanel | undefined = undefined;
 
 export function activate(context: vscode.ExtensionContext) {
-    const disposable = vscode.commands.registerCommand('semantic-color-grep-edit.search', () => {
+    const disposable = vscode.commands.registerCommand('coloring-search-editor.search', () => {
         // If panel already exists, just reveal it and restore focus
         if (currentPanel) {
             currentPanel.reveal(vscode.ViewColumn.One);
@@ -30,8 +30,8 @@ export function activate(context: vscode.ExtensionContext) {
         }
         
         const panel = vscode.window.createWebviewPanel(
-            'semanticColorGrepEdit',
-            'Color Grep',
+            'coloringSearchEditor',
+            'Coloring Search Editor',
             vscode.ViewColumn.One,
             {
                 enableScripts: true,

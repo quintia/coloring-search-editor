@@ -1,4 +1,4 @@
-# Semantic Coloring Search Editor
+# Coloring Search Editor
 
 **English** | [日本語](README.md)
 
@@ -18,7 +18,7 @@ A VS Code extension for file search with colorized results. Use it as an alterna
 ## Usage
 
 1. Open the Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux)
-2. Run "Semantic Coloring Search Editor: Search"
+2. Run "Coloring Search Editor: Search"
 3. Enter your search term and optional file patterns
 4. Configure search options using the toggle buttons:
    - **Aa**: Toggle case sensitivity

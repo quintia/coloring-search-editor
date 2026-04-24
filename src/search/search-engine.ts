@@ -58,7 +58,7 @@ export function performSearch(
         binaryPath = 'rg';
     } else {
         // macOS/Windows: use bundled binary
-        const extensionPath = vscode.extensions.getExtension('quintia.semantic-coloring-search-editor')?.extensionPath;
+        const extensionPath = vscode.extensions.getExtension('quintia.coloring-search-editor')?.extensionPath;
         if (!extensionPath) {
             console.error('Extension path not found');
             return;
