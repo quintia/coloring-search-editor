@@ -7,7 +7,7 @@ A VS Code extension for file search with colorized results. Use it as an alterna
 ## Features
 
 - **Fast File Search**: Built-in search engine (ripgrep-compatible subset) with no external dependencies
-- **Semantic Coloring of Paths**: Semantic coloring of file paths for better visual organization
+- **Path Coloring**: Color-coded file paths for better visual organization
 - **Context Lines**: Toggle display of context around hit locations
 - **Search Options**: Support for case-insensitive search, whole word matching, and regex patterns
 - **File Pattern Filtering**: Use glob patterns to filter search results by file type
